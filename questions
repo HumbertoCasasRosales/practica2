@@ -1,0 +1,49 @@
+*************************************************************************************************
+*****Question 1: What’s difference between Portable (CPL) and Shared (SAP) projects ?************
+
+ CPL = 
+ It is used to create a class library that targets multiple platforms 
+ (especially Silverlight variants like WP7 and SL4, but includes XNA on Xbox) in one go.
+  
+  SAP =
+
+We can import data from an SAP system into a SQL Server database. This section provides instructions
+on how to create an SSIS package that you can run to import data.
+**********************************************************************************
+*****Question 2:  What are the requirements to configure Xamarin Mac Agent?*******
+
+Requirements
+
+Xamarin.iOS for Visual Studio accomplishes an amazing feat: it lets developers create, 
+build, and debug iOS applications on a Windows computer using the Visual Studio IDE. 
+It cannot do this alone – iOS applications cannot be created without Apple’s compiler, 
+and they cannot be deployed without Apple’s certificates and code-signing tools. This means that 
+your Xamarin.iOS for Visual Studio installation requires a connection to a networked Mac OS X computer 
+(which is refered to as the host or build host) to perform these tasks for you. Once configured, Xamarin’s 
+tools will make the process as seamless as possible.
+
+System Requirements
+The system requirements are:
+Windows
+Windows 7 or higher.
+Visual Studio 2013 Professional or higher.
+Xamarin for Visual Studio. 
+NOTE: The Xamarin plug-in cannot be used with Express editions of Visual Studio due to lack of support for extensions.
+Macintosh
+A Mac running OS X El Capitan (10.11) or higher (although the latest stable version is recommended).
+Xamarin Studio 5.10 or higher (although the latest stable version is recommended)). 
+This should be on the same distribution channel as Xamarin for Visual Studio.
+Xamarin.iOS SDK.
+Apple’s Xcode(7+) IDE and iOS SDK (although the latest stable version from the App Store is recommended)).
+
+****************************************************************************
+*****Question 3: How many projects you have and why you need all?***********
+
+each of them has what it takes to be able to compile in each one of the platforms
+
+
+
+
+
+
+
